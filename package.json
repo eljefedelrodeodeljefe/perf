@@ -1,0 +1,28 @@
+{
+  "name": "perf",
+  "version": "0.1.0",
+  "description": "Perf tests and musings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e c --exec 'gcc perf_stack.c && ./a.out'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eljefedelrodeodeljefe/perf.git"
+  },
+  "keywords": [
+    "perf",
+    "c",
+    "performance"
+  ],
+  "author": "Robert Jefe Lindstaedt <robert.lindstaedt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eljefedelrodeodeljefe/perf/issues"
+  },
+  "homepage": "https://github.com/eljefedelrodeodeljefe/perf#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
